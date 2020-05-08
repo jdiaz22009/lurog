@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "src"
+  ],
+  "paths": {
+    "assets/*": [
+      "assets/*"
+    ],
+    "components/*": [
+      "components/*"
+    ],
+    "helpers/*": [
+      "helpers/*"
+    ],
+    "hoc/*": [
+      "hoc/*"
+    ],
+    "routes/*": [
+      "routers/*"
+    ],
+    "screens/*": [
+      "screens/*"
+    ],
+    "utils/*": [
+      "utils/*"
+    ]
+  }
+}
