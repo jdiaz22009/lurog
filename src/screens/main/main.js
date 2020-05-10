@@ -42,7 +42,6 @@ const MainScreen = () => {
           No tienes una cuenta? inscríbete
       </Text>
       </View>
-
     </View>
   )
 
