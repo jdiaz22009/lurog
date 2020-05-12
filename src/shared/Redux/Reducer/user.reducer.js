@@ -1,12 +1,16 @@
-import { DATA_USER } from '../Types/user.types';
+import { DATA_USER, LOGOUT } from '../Types/user.types';
 
-const INITIAL_STATE = []
+const INITIAL_STATE = {
+  user: null
+}
 
 const userReducer = (state = INITIAL_STATE, action) => {
   const { type, payload } = action;
   switch (type) {
     case DATA_USER:
-      return payload;
+      return { ...state, user: payload }
+    case LOGOUT:
+      return { ...state, user: null }
     default:
       return state;
   }

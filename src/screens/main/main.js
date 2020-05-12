@@ -9,7 +9,12 @@ import facebook from 'assets/img/facebook.png'
 import google from 'assets/img/google.png'
 
 
-const MainScreen = () => {
+const MainScreen = ({ navigation }) => {
+
+  const goEmail = () => {
+    navigation.push('Tabs')
+  }
+
 
   return (
     <View style={styles.container}>
@@ -24,7 +29,9 @@ const MainScreen = () => {
         </Text>
       </View>
       <View>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => goEmail()}
+        >
           <Image source={email} style={styles.img} />
         </TouchableOpacity>
 

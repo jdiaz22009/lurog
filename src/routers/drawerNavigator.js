@@ -2,6 +2,10 @@ import React from 'react'
 
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer'
 
+import Home from 'screens/apps/home/home'
+
+import DrawerList from 'components/apps/DrawerList/DrawerList'
+
 const Drawer = createDrawerNavigator()
 
 const CustomDrawerContent = (props) => {
@@ -13,15 +17,13 @@ const CustomDrawerContent = (props) => {
   )
 }
 
-
 const DrawerNavigator = () => {
   return (
     <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} />}>
       <Drawer.Screen
-        name="Home"
+        name="inicio"
+        component={Home}
         options={{ drawerLabel: 'Inicio' }} />
-
-
     </Drawer.Navigator>
   )
 }

@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 
   logo: {
     position: 'relative',
-    top: normalize(20),
+    top: normalize(-20),
     width: normalize(200),
     height: normalize(200),
   },
