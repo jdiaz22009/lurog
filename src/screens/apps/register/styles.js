@@ -46,6 +46,11 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Bold',
     color: COLOR_LETRA_INICIO,
     fontSize: normalize(16)
+  },
+
+  containerCheck: {
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 })
 
