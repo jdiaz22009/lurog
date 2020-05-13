@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "986926516265",
+    "firebase_url": "https://lurog-efccd.firebaseio.com",
+    "project_id": "lurog-efccd",
+    "storage_bucket": "lurog-efccd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986926516265:android:d402706a012e5bd91d7438",
+        "android_client_info": {
+          "package_name": "com.lurog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986926516265-angpsho9plclsgctl7bodfjuuvon9erg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRtBOfpfgdIbQpevNPyXzwSSn82Lg_t4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986926516265-angpsho9plclsgctl7bodfjuuvon9erg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "986926516265-9115vm8c19aj10i20lq7e1h2lq742og8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lurog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
