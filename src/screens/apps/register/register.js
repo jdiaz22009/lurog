@@ -34,7 +34,9 @@ const Register = () => {
             <Text style={styles.text} >Foto de perfil</Text>
           </TouchableOpacity>
         </View>
+
         <View>
+          
         </View>
       </View>
     </SafeAreaView>
