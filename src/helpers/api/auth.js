@@ -13,3 +13,14 @@ export const signIn = async (params) => {
   }
 
 }
+export const getCategory = async () => {
+  try {
+    const data = {
+      url: CONFIG.apiUrl + CONFIG.paths.getCategory
+    }
+    return await request('GET', data, null)
+  } catch (error) {
+    throw error
+  }
+
+}

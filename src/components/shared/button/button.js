@@ -5,11 +5,6 @@ import { TouchableOpacity, Text } from 'react-native'
 
 const Button = ({ disabled, onPress, text }) => {
 
-  useEffect(() => {
-    console.log(disabled)
-  }, [])
-
-
   return (
     <TouchableOpacity
       disabled={disabled ? disabled : false}

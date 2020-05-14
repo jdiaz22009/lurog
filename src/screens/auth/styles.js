@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     top: normalize(90),
   },
   formBuilds: {
-    marginBottom: normalize(50)
+    marginBottom: normalize(20)
   },
 
   textContentLogin: {

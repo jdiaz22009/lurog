@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
-    borderBottomColor: COLOR_BOTONES,
+    borderBottomColor: GRAY_0,
     borderBottomWidth: 2,
     width: normalize(320),
   },
@@ -18,12 +18,13 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Bold',
     fontSize: normalize(15),
     marginBottom: normalize(0),
+    color: GRAY_0
   },
   textInput: {
     flex: 1,
     paddingTop: normalize(15),
     paddingRight: normalize(15),
-    paddingBottom: normalize(15),
+    paddingBottom: normalize(3),
     color: GRAY_0,
     fontFamily: 'Roboto-Regular',
     fontSize: normalize(15),

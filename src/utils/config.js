@@ -3,7 +3,8 @@ const env = 'dev'
 
 const params = {
   paths: {
-    login: '/auth/login'
+    login: '/auth/login',
+    getCategory: '/auth/category'
   },
 
 }
@@ -16,7 +17,7 @@ const prod = {
 
 const dev = {
   ...params,
-  apiUrl: 'https://lurog.live/api/v1',
+  apiUrl: 'http://localhost:5000/api/v1',
   environment: 'dev',
 }
 
