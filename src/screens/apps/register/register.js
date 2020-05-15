@@ -12,6 +12,8 @@ import Frontal from 'assets/img/Frontal.png'
 import CheckBox from 'components/shared/check/check'
 import VirtualList from 'components/shared/virtualList/virtualList'
 import Button from 'components/shared/button/button'
+import RNCamera from 'components/native/camera/camera'
+
 
 import FormInput from 'components/auth/formInput/formInput'
 import TextError from 'components/auth/textError/textError'
@@ -248,6 +250,7 @@ const Register = () => {
                 <Image source={Frontal} />
                 <Text style={styles.text} >Foto de perfil</Text>
               </TouchableOpacity>
+              {/* <RNCamera /> */}
             </View>
 
             <View style={styles.containerCheck}>
